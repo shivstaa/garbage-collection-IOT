@@ -2,13 +2,13 @@ import React from 'react';
 import { View, ImageBackground, Text, StyleSheet, Dimensions, SafeAreaView, TextInput, TouchableHighlight} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 
-export default function Achivements ({ navigation }) {
+export default function Achievements ({ navigation }) {
   const { width, height } = Dimensions.get('window');
 
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground
-        source={require('./achibg.png')}
+        source={require('./assets/achibg.png')}
         resizeMode="cover"
         style={{ width, height }}
       >
