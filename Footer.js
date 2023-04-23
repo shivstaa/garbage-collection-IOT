@@ -14,7 +14,7 @@ const Footer = ({ navigation, topVal }) => {
         source={require('./assets/homi.png')}
       />
       </TouchableOpacity>
-      <TouchableOpacity onPress={() => navigation.navigate('Achivements')}>
+      <TouchableOpacity onPress={() => navigation.navigate('Achievements')}>
         <Image
         source={require('./assets/stari.png')}
       />
