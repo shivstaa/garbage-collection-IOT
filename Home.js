@@ -39,7 +39,7 @@ export default function Home({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <ImageBackground
-        source={require('./home3.png')}
+        source={require('./assets/home3.png')}
         resizeMode="cover"
         style={{ width, height }}
       >
