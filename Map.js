@@ -13,7 +13,7 @@ export default function Map ({ navigation }) {
         resizeMode="cover"
         style={{ width, height }}
       >
-      <TouchableHighlight onPress={() => navigation.navigate('Achivements')}>
+      <TouchableHighlight onPress={() => navigation.navigate('Achievements')}>
          <Image
             style={styles.img}
             source={require('./assets/historycomponent.png')}
