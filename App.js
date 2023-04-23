@@ -6,7 +6,7 @@ import Home from "./Home";
 import Map from "./Map";
 import Footer from "./Footer";
 import History from "./History"; 
-import Achivements from "./Achivements"; 
+import Achievements from "./Achievements"; 
 import Rewards from "./Rewards"; 
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -24,7 +24,7 @@ function MyStack() {
       <Stack.Screen name="Map" component={Map} />
       <Stack.Screen name="History" component={History} />
       <Stack.Screen name="Rewards" component={Rewards} />
-      <Stack.Screen name="Achivements" component={Achivements} />
+      <Stack.Screen name="Achievements" component={Achievements} />
     </Stack.Navigator>
   );
 }
