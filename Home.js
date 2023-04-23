@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Dimensions, StyleSheet, SafeAreaView, ImageBackground, Text, TouchableHighlight } from 'react-native';
+import { Dimensions, StyleSheet, SafeAreaView, ImageBackground, Text, TouchableHighlight, TouchableOpacity, Image } from 'react-native';
 import { collection, doc, onSnapshot } from 'firebase/firestore';
 import { db } from './firebase';
 import Footer from "./Footer";
@@ -51,12 +51,12 @@ export default function Home({ navigation }) {
         onPress={() => navigation.navigate('Map')} style={styles.button}>
         <Text style={styles.btnTitle}>More..</Text>
       </TouchableHighlight>
-        <TouchableOpacity onPress={() => navigation.navigate('Login')}>
+        <TouchableOpacity style={styles.close} onPress={() => navigation.navigate('Login')}>
          <Image
-        source={require('./close2.png')}
+        source={require('./assets/close2.png')}
       />
       </TouchableOpacity>
-      <Footer navigation={navigation} topVal={400}/>
+      <Footer navigation={navigation} topVal={370}/>
       </ImageBackground>
     </SafeAreaView>
   );
@@ -66,6 +66,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
+  },
+  close: {
+    position: "relative",
+    bottom: 200,
   },
   input: {
     position: 'relative',
