@@ -16,7 +16,7 @@ export default function Map ({ navigation }) {
       <TouchableHighlight onPress={() => navigation.navigate('Achivements')}>
          <Image
             style={styles.img}
-            source={require('./historycomponent.png')}
+            source={require('./assets/historycomponent.png')}
         />
       </TouchableHighlight>
       <Footer navigation={navigation} topVal={587}/>
