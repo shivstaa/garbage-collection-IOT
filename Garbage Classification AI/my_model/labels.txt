@@ -1,0 +1,4 @@
+0 Plastic
+1 Can
+2 Paper
+3 Waste
