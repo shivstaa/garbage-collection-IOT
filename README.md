@@ -1,4 +1,4 @@
-# lahacksapp - Trash/Recyclables IOT Project 
+# Trash/Recyclables IOT Project 
 Garbage classification and collection IOT project.
 Contains: 
 - Garbage controller (C script): Script that connects to microcontroller and implements bluetooth to determine whether to open the trash bin or the recyclables.
